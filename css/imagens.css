@@ -1,0 +1,22 @@
+.container-imagens--dois {
+    float: right;
+    margin-right: 7rem;
+    margin-top: 4rem;
+}
+
+.container-imagens--um {
+    display: inline-block;
+    margin-left: 7rem;
+    margin-top: 4rem;
+    width: 40%;
+}
+
+.container-imagem__um {
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+.container__imagem__dois {
+    width: 95%;
+}
+

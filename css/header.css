@@ -1,0 +1,31 @@
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    background-color: black;
+    height: 4.5rem;
+}
+
+
+.header-container__titulo {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.header-container__texto {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: white;
+    font-style: italic;
+}
+
+.header-container__imagem {
+    width:  1.6rem;
+    -webkit-filter: invert(100%);
+    color: white;
+    padding-right: 1.5rem;
+}

@@ -1,0 +1,13 @@
+@import url("../css/header.css");
+@import url("../css/banner.css");
+@import url("../css/imagens.css");
+@import url("../css/spa.css");
+
+:root {
+    --fonte-principal: 'Syne';
+    --fonte-secundaria: 'EB Garamond';
+}
+
+body {
+    margin: 0 auto;
+}

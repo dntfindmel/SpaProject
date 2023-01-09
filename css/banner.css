@@ -1,0 +1,37 @@
+.banner-container {
+    position: relative;
+}
+
+.banner-container__imagem {
+    background: url("../img/banner.jpg") no-repeat/center cover;
+    width: 100%;
+    height: 45rem;
+    opacity: 80%;
+}
+
+.banner-container__titulo {
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    width: 100%;
+
+    color: white;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.banner-container__texto {
+    position: absolute;
+    top: 90%;
+    text-align: center;
+    width: 100%;
+
+    color: white;
+    font-family: var(--fonte-secundaria);
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 6px #000000;
+}
