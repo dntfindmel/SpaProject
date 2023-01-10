@@ -39,7 +39,7 @@
 @media screen and (max-width: 440px) {
     .banner-container__imagem {
         height: 60rem;
-        width: 200%;
+        width: 100%;
     }
 
     .banner-container__titulo {
