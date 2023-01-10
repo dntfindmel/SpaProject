@@ -47,10 +47,14 @@
 
     .spa-container {
         display: block;
-        text-align: center;
+        text-align: flex-start;
+        margin-left: 1rem;
     }
 
     .spa-container__imagem {
         padding: 1rem 0;
+        width: 95%;
+        margin-left: 0.1rem;
+        line-height: 0;
     }
 }
