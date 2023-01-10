@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 .spa-container__imagem {
@@ -36,6 +37,7 @@
 .spa-container__texto {
     line-height: 1.5rem;
     font-size: 18px;
+    width: 20rem;
 }
 
 @media screen and (max-width: 440px) {
