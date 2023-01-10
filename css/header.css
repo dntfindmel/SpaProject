@@ -29,3 +29,21 @@
     color: white;
     padding-right: 1.5rem;
 }
+
+@media screen and (max-width: 440px) {
+    .header-container { 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 10rem;
+        padding-left: 1rem;
+    }
+
+    .header-container__titulo {
+        margin-top: 1.5rem;
+    }
+
+    .header-container__imagem {
+        padding-bottom: 0.5rem;
+    }
+}

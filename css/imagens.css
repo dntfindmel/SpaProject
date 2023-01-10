@@ -20,3 +20,23 @@
     width: 95%;
 }
 
+@media screen and (max-width: 440px) {
+    .container-imagens--um {
+        display: flex;
+        flex-direction: column;
+        width: 92%;
+        margin: 0;
+        padding-top: 5rem;
+        padding-left: 0.7rem;
+    }
+
+    .container-imagens--dois {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 95%;
+        padding-left: 0.7rem;
+    }
+
+
+}

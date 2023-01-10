@@ -35,3 +35,14 @@
     font-weight: 400;
     text-shadow: 2px 2px 6px #000000;
 }
+
+@media screen and (max-width: 440px) {
+    .banner-container__imagem {
+        height: 60rem;
+        width: 200%;
+    }
+
+    .banner-container__titulo {
+        top: 65%;
+    }
+}

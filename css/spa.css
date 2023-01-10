@@ -37,3 +37,20 @@
     line-height: 1.5rem;
     font-size: 18px;
 }
+
+@media screen and (max-width: 440px) {
+    .spa-container__titulo {
+        width: 50%;
+        font-size: 2rem;
+        margin-right: 1.4rem;
+    }
+
+    .spa-container {
+        display: block;
+        text-align: center;
+    }
+
+    .spa-container__imagem {
+        padding: 1rem 0;
+    }
+}
