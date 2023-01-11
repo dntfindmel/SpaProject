@@ -2,6 +2,13 @@
 @import url("../css/banner.css");
 @import url("../css/imagens.css");
 @import url("../css/spa.css");
+@import url("../css/cosmetic.css");
+@import url("../css/banner-dois.css");
+@import url("../css/natural.css");
+@import url("../css/espaco.css");
+@import url("../css/contato.css");
+@import url("../css/mapa.css");
+@import url("../css/rodape.css");
 
 :root {
     --fonte-principal: 'Syne';

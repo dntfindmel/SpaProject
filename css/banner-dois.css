@@ -1,0 +1,68 @@
+.banner-container__dois {
+    position: relative;
+    margin-top: 7rem;
+}
+
+#image {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: 20%;
+}
+
+#texto, #titulo, #link {
+    position: absolute;
+    margin-left: 5rem;
+}
+
+#titulo {
+    top: 5rem;
+    font-size: 3.5rem;
+    font-family: var(--fonte-secundaria);
+    font-weight:500;
+}
+
+#texto {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    font-style: italic;
+    color: #3A3B3C;
+    top: 14rem;
+}
+
+#link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-principal);
+    top: 17.5rem;
+    margin-left: 5rem;
+    padding: 0.8rem 3.8rem;
+    border: 2px solid #FF0000;
+    transition: 0.5s;
+}
+
+#link:hover {
+    background-color: #FF0000;
+    color: white;
+}
+
+@media screen and (max-width: 440px) {
+    #titulo {
+    font-size: 2rem;
+    margin-left: 2rem;
+    }
+
+    #texto {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        top: 10rem;
+    }
+
+    #link {
+        font-size: 1.20rem;
+        margin-left: 2rem;
+        top: 14rem;
+    }
+}
